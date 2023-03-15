@@ -10,7 +10,7 @@
     "cluster": "pm2 start src/server.js -i max",
     "stop-cluster": "pm2 stop all",
     "deploy": "node build/index.js",
-    "deploy-cluster": "pm2 start build/index.js -i max --output='./out.log' --error='./error.log'"
+    "deploy-cluster": "pm2 start build/index.js -i max --output='logs/out.log' --error='logs/error.log'"
   },
   "author": "Yogesh Gopal Palta",
   "license": "ISC",
