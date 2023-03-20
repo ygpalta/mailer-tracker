@@ -1,1 +1,1 @@
-npm install --omit=dev
+npm install --omit=dev && node installdb.js
